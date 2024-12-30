@@ -1,0 +1,32 @@
+{
+  "DEBUG": true,
+  "LOGGING_LEVEL": 30,
+  "VERSION": "v1",
+  "SECRET_KEY": "your_secret_key",
+  "SQLALCHEMY_TRACK_MODIFICATIONS": false,
+  "JSON_AS_ASCII": false,
+  "MODEL_PATH": "D:\\PycharmWork\\swmm-web-api\\static\\data\\",
+  "NODE_ATTRIBUTE": [
+    "ponding_area",
+    "losses",
+    "depth",
+    "initial_depth",
+    "invert_elevation"
+  ],
+  "Link_ATTRIBUTE": [
+    "connections",
+    "flow_limit",
+    "initial_flow",
+    "average_head_loss",
+    "outlet_node",
+    "inlet_node"
+  ],
+  "SUBCATCHMENT_ATTRIBUTE": [
+    "area",
+    "connection",
+    "curb_length",
+    "percent_impervious",
+    "slope",
+    "width"
+  ]
+}
